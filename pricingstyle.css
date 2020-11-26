@@ -1,0 +1,411 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.titleSize {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.marginTop {
+    margin-top: 30px;
+}
+
+.para2 {
+    font-size: 25px;
+}
+
+.blue {
+    color: #2D7FF9;
+}
+
+/* Navigation Bar Code Starts Here */
+
+.newInfo {
+    border-bottom: 1px #DDDDDD solid;
+}
+
+.newInfo:hover {
+    text-decoration: none;
+    border-bottom: 2px white solid;
+}
+
+.navTopLine {
+    background-color: rgb(248, 43, 96);
+    text-align: center;
+    height: 15px;
+    width: 100%;
+    color: white;
+    justify-items: center;
+    padding: 14px;
+    font-size: 16px;
+}
+
+.nav p:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    background: white;
+    height: 70px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px #DDDDDD solid;
+}
+
+.airtableLogo {
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 0px;
+
+}
+
+.navContent {
+    padding: 27px 20px;
+}
+
+.pricingLink {
+    flex-grow: 3;
+}
+
+.signupLink {
+    height: 20px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #2D7FF9;
+    padding: 7px;
+    text-align: center;
+    color: white;
+}
+
+.signupLink p:hover {
+    color: white;
+}
+
+.signupCss .signupLink:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.signupCss {
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+/* Navigation Bar Code Ends Here */
+
+.fas {
+    size: 5px;
+}
+
+
+
+.main {
+    display: flex;
+    margin: 5%;
+    margin-bottom: 1%;
+    flex-direction: column;
+}
+
+
+.firstSection {
+    display: flex;
+}
+
+.sample {
+    flex-basis: 35%;
+    height: 1600px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding-left: 10px;
+}
+
+.free {
+    flex-basis: 16%;
+    height: 1600px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    text-align: center;
+}
+
+.plus {
+    flex-basis: 16%;
+    height: 1890px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    text-align: center;
+    background-color: #D0F0FD;
+    border-radius: 15px;
+
+}
+
+.pro {
+    flex-basis: 16%;
+    height: 1890px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    text-align: center;
+    background-color: #FFEAB6;
+    border-radius: 15px;
+
+}
+
+.enterprise {
+    flex-basis: 16%;
+    height: 1890px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    border-radius: 15px;
+}
+
+.featureTag {
+    color: gray;
+    height: 20px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.featureText>p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.nameDiv {
+    height: 50px;
+    border: 1px red solid;
+    background-color: white;
+}
+
+.tick {
+    width: 15px;
+}
+
+.pad {
+    padding-top: 5px;
+}
+
+.essentialDiv {
+    height: 225px;
+}
+
+.syncDiv {
+    height: 140px;
+}
+
+.advancedDiv {
+    height: 330px;
+}
+
+.supportDiv {
+    height: 240px;
+}
+
+.adminDiv {
+    height: 280px;
+}
+
+.linkDiv {
+    height: 30px;
+    color: #2D7FF9;
+    padding: 10px;
+
+}
+
+.underLineDiv {
+    height: 3px;
+    width: 40%;
+    background-color: #2D7FF9;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+.priceDiv {
+    height: 110px;
+    font-size: 45px;
+    padding-top: 40px;
+    border-radius: 15px;
+
+}
+
+.priceText {
+    font-size: 15px;
+}
+
+
+.secondSection {
+    margin: 0px auto;
+    flex-basis: 100%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.partnerImg {
+    width: 93%;
+    margin: 3%;
+}
+
+.que {
+    display: grid;
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    grid-template-rows: 50px 50px 20px 250px 250px 250px 250px;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 10px;
+}
+
+.qText {
+    grid-column: 1/7;
+}
+
+.queDiv1 {
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.queDiv2 {
+    grid-column: 4/5;
+    text-align: center;
+}
+
+.faq {
+    grid-column: 1/7;
+    text-align: center;
+    color: #444444;
+}
+
+.faq1 {
+    grid-column: 1/3;
+    padding: 20px;
+}
+
+.faq2 {
+    grid-column: 3/5;
+    padding: 20px;
+}
+
+.faq3 {
+    grid-column: 5/7;
+    padding: 20px;
+}
+
+.faq4 {
+    grid-column: 1/3;
+    padding: 20px;
+}
+
+.faq5 {
+    grid-column: 3/5;
+    padding: 20px;
+}
+
+.faq6 {
+    grid-column: 5/7;
+    padding: 20px;
+}
+
+.faq7 {
+    grid-column: 1/3;
+    padding: 20px;
+}
+
+.faq8 {
+    grid-column: 3/5;
+    padding: 20px;
+}
+
+.faq9 {
+    grid-column: 5/7;
+    padding: 20px;
+}
+
+.faq11 {
+    grid-column: 3/5;
+    padding: 20px;
+}
+
+.faq10 {
+    grid-column: 1/3;
+    padding: 20px;
+}
+
+.faqTitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.faqText {
+    font-size: 15px;
+}
+
+/* Footer Code Starts Here  */
+
+.footer {
+    display: grid;
+    margin: 5%;
+    margin-top: 0%;
+    grid-template-rows: 110px 110px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+    height: 300px;
+}
+
+
+a {
+    text-decoration: none;
+    border-bottom: 2px #DDDDDD solid;
+    font: 50px;
+    padding: 2px;
+    color: #444444;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    border-bottom: 2px #444444 solid;
+}
+
+
+
+.setSpace {
+    margin: 10px;
+}
+
+.footerDiv0 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+.footerDiv1 {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.footerDiv2 {
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+
+.footerDiv3 {
+    grid-row: 1/3;
+    grid-column: 4/5;
+}
+
+.footerDiv4 {
+    grid-row: 1/3;
+    grid-column: 5/6;
+}
+
+/* Footer Code Ends Here  */

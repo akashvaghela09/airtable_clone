@@ -1,0 +1,175 @@
+#parent{
+    width: 100%;
+    height: 750px;
+    /* border: dashed dimgrey; */
+}
+
+#signin{
+    /* border: dashed deepskyblue; */
+    width: 25%;
+    height: 60%;
+    margin: auto;
+    margin-top: 6%;
+}
+
+#signin img{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.gap{
+    height: 5%;
+}
+
+#info{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3%;
+    margin: auto;
+}
+
+#sign{
+    width: 80%;
+    margin: auto;
+}
+.signin{
+    float: left;
+    font-size: 20px;
+}
+
+.password{
+    float: right;
+    padding: 6px;
+    color: dimgray;
+    font-size: 12px;
+}
+
+.password:hover{
+    cursor: pointer;
+    text-underline-position: below;
+}
+
+#email{
+    width: 80%;
+    height: 15%;
+    float: left;
+    margin-left: 10%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#email img{
+    height: 40%;
+    width: 5%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#email p{
+    color: grey;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-weight: 500;
+}
+
+#password{
+    width: 80%;
+    height: 15%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#password img{
+    height: 40%;
+    width: 5%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#password p{
+    color: grey;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-weight: 500;
+}
+
+#btn{
+    text-align: center;
+    width: 80%;
+    height: 15%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: rgb(66, 66, 66);
+}
+
+#btn p{
+    margin: 2% auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#google{
+    width: 72%;
+    height: 10%;
+    margin: auto;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+#google img{
+    width: 8%;
+    height: 70%;
+    margin-top: 2%;
+    margin-left: 20%;
+    float: left;
+}
+
+#google p{
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#child{
+    /* border: dashed deepskyblue; */
+    width: 25%;
+    height: 10%;
+    margin: 0% auto;
+}
+
+.last{
+    width: 72%;
+    margin: auto;
+}
+
+.pass{
+    float: right;
+    color: dimgrey;
+    font-size: 12px;
+    margin-top: 0%;
+}
+
+.mar{
+    margin-top: 0%;
+}
+
+.blue{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0%;
+    color: rgb(22, 22, 104);
+}
